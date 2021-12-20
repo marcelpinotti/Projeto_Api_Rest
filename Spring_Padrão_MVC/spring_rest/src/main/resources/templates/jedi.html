@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Jedi</title>
+        <meta name="description" content="Projeto DIO - Introdução ao Padrão MVC">
+        <meta name="keywords" content="Java, HTML5, CSS3, site responsivo, elementos semânticos, Grid, Spring Boot - MVC, Thymeleaf">
+        <meta name="author" content="Marcel Pinotti">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet"/>
+        <link rel="sortcut icon" href="../image/Jedi.svg" type="image/gif"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poller One" />
+    </head>
+
+    <body class="principal">
+        <header class="cabecalho">
+            <p>FORÇA JEDI <img src="../image/Jedi.svg" width=65px alt="Logo Jedi"></p>
+        </header>
+
+        <section class="conteudo">
+            <table class="table">
+                <th class="table">ID</th>
+                <th class="table">NOME</th>
+                <th class="table">SOBRENOME</th>
+
+                <tr th:each="jedi : ${allJedi}">
+                    <td align="center" th:text="${jedi.id}"></td>
+                    <td align="center"  th:text="${jedi.name}"> </td>
+                    <td align="center" th:text="${jedi.lastname}"> </td>
+                </tr>
+            </table>
+
+            <br>
+            <table class="table1">
+                <th class="table1">
+                    <div th:if="${message}" th:text="${message}" th:class="${'alert ' + alertClass}"/>
+                </th>
+            </table>
+
+            <br>
+			    <a class="a" href="#" th:href="@{/new-jedi}"/>| NOVO JEDI |</a>
+        </section>
+
+        <footer>
+			<div class="rodape">
+            <em>Desenvolvido por <strong>Marcel Pinotti | <a href="https://www.linkedin.com/in/marcelpinottidev" target="_blank"><img class="imageLinkedIn" src="image/linkedIn.png" alt="Logo LinkedIn"></img></a> | <a href="https://github.com/marcelpinotti" target="_blank"><img class="imageGitHub" src="image/gitHub.png" alt="Logo GitHub"></img></a> </strong> - 2021</em>
+			</div>
+		</footer>
+		
+    </body>
+</html>
