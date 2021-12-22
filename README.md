@@ -1,4 +1,4 @@
-#SISTEMA DE GERENCIAMENTO DE PESSOAS VACINADAS E GRUPOS PRIORITÁRIOS EM API REST COM SPRING BOOT
+# SISTEMA DE GERENCIAMENTO DE PESSOAS VACINADAS E GRUPOS PRIORITÁRIOS EM API REST COM SPRING BOOT
 
 # Resumo
 Neste projeto foi desenvolvido um pequeno sistema para o gerenciamento de pessoas vacinadas e seus grupos de prioridades através de uma API REST, criada com o Spring Boot.
@@ -23,6 +23,28 @@ Foram necessários os seguintes pré-requisitos para a execução do projeto des
 * Plataforma para desenvolvimento de Api Postman.
 * Conta no GitHub para o armazenamento do projeto na nuvem.
 
+## Endpoints
+Para acessar o banco de dados, é necessário usar os endpoints que estão na tabela abaixo:
+
+***Entity Person***
+| Tipo | Descrição                                             | Caminho                                                      |
+| ---- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| GET  | Retorna uma lista de pessoas                          | **/persons**                                                 |
+| PUT  | Atualiza uma pessoa pelo id.                          | **/persons/{id}**                                            |
+| POST | Cadastra uma pessoa.                                  | **/persons**                                                 |
+| DEL  | Deleta uma pessoa pelo id.                            | **/persons/{id}**                                            |
+
+***Entity PriorityPerson***
+| Tipo | Descrição                                             | Caminho                                                      |
+| ---- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| GET  | Retorna uma lista com os grupos prioritários          | **/prioritygroups**                                          |
+| PUT  | Atualiza um grupo prioritário pelo id.                | **/prioritygroups/{id}**                                     |
+| POST | Cadastra uma grupo prioritário.                       | **/prioritygroups**                                          |
+| DEL  | Deleta um grupo prioritário pelo id.                  | **/prioritygroups/{id}**                                     |
+
+
+
+
 # Links
 Abaixo, seguem links das documentações das tecnologias utilizadas no projeto:
 
@@ -38,3 +60,5 @@ Abaixo, seguem links das documentações das tecnologias utilizadas no projeto:
 
 # Projeto Original
 
+Professor Larissa Falcão
+repositório https://github.com/larissafalcao/fullstackweek
