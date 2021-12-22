@@ -13,7 +13,7 @@ Foram necessários os seguintes pré-requisitos para a execução dos projetos d
 - Conta no GitHub para o armazenamento do projeto na nuvem.
 - Conta no Heroku para o deploy do projeto na nuvem
 
-# Projetos e suas branchs no Repsitório
+# Projetos em suas Branchs no Repositório
 
 **Projeto - Gerenciamento de Cadastro de Pessoas** - Neste projeto foi desenvolvido um pequeno sistema para o gerenciamento de pessoas - [Link do Projeto](https://github.com/marcelpinotti/Projetos_Api_Rest_de_BootCamps/tree/cadastro_de_clientes) ;
 
