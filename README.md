@@ -13,7 +13,7 @@ Foram desenvolvidos e abordados os seguintes tópicos durante a implantação:
 * Desenvolvimento de testes unitários para validação das funcionalidades
 * Implantação do sistema na nuvem através do Heroku.
 
-## Instruções passadas pelo professor:
+## Instruções passadas pelo professor
 
 ​	- Para executar o projeto no terminal, digite o seguinte comando:
 ```shell script
