@@ -36,7 +36,7 @@ Foram necessários os seguintes pré-requisitos para a execução do projeto des
 ## Endpoints
 Para acessar o banco de dados, é necessário acessar a URL do projeto mais os endpoints que estão na tabela abaixo:
 
-URL do projeto: https://cadastroclientes-api.herokuapp.com/
+URL do projeto: https://cadastroclientes-api.herokuapp.com
 
 | Tipo | Descrição                                             | Caminho                                                      |
 | ---- | ----------------------------------------------------- | ------------------------------------------------------------ |
