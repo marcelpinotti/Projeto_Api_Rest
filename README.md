@@ -1,11 +1,11 @@
 # SISTEMA DE CÁLCULO DA DISTÂNCIA ENTRE CIDADES BRASILEIRAS EM API REST COM SPRING BOOT - Projeto Digital Innovation One
 
 ## Resumo
-Neste projeto, de API REST, foi desenvolvido um pequeno sistema que calcula a distância entre cidades brasileiras.
+Neste projeto, de API REST, foi desenvolvido um pequeno sistema que calcula a distância entre as cidades brasileiras.
 
 
 ## Pré-Requisitos
-Foram necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
+Foram necessários os seguintes pré-requisitos para a execução do projeto:
 
 - Java 11.
 - Maven.
@@ -41,6 +41,6 @@ URL do projeto: https://floating-savannah-62124.herokuapp.com
 | GET  | Retorna a distância entre as cidades em milhas        | **/distances/by-points?from=**"ID CIDADE DE ORIGEM"**&to=**"ID CIDADE DE DESTINO" |
 | GET  | Retorna a distância entre as cidades em metros        | **distances/by-cube?from=**"ID CIDADE DE ORIGEM"**&to=**"ID CIDADE DE DESTINO" |
 
-## Projeto Original.
+## Projeto Original
 - Professor André Luis Gomes
   - repositório https://github.com/andrelugomes/digital-innovation-one/tree/master/cities-api
