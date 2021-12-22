@@ -3,7 +3,7 @@
 # Resumo
 Neste projeto foi desenvolvido um pequeno sistema para o gerenciamento de pessoas vacinadas e seus grupos de prioridades através de uma API REST, criada com o Spring Boot.
 
-#Desenvolvimento
+# Desenvolvimento
 Foram desenvolvidos os seguintes tópicos durante a implantação:
 
 * Setup inicial de projeto com o Spring Boot Initialzr 
@@ -24,7 +24,7 @@ Foram necessários os seguintes pré-requisitos para a execução do projeto des
 * Conta no GitHub para o armazenamento do projeto na nuvem.
 
 ## Endpoints
-Para acessar o banco de dados, é necessário usar os endpoints que estão na tabela abaixo:
+Para acessar o banco de dados, é necessário usar os endpoints que estão nas tabelas abaixo:
 
 ***Entity Person***
 | Tipo | Descrição                                             | Caminho                                                      |
@@ -42,9 +42,6 @@ Para acessar o banco de dados, é necessário usar os endpoints que estão na ta
 | POST | Cadastra uma grupo prioritário.                       | **/prioritygroups**                                          |
 | DEL  | Deleta um grupo prioritário pelo id.                  | **/prioritygroups/{id}**                                     |
 
-
-
-
 # Links
 Abaixo, seguem links das documentações das tecnologias utilizadas no projeto:
 
@@ -59,6 +56,5 @@ Abaixo, seguem links das documentações das tecnologias utilizadas no projeto:
 * [Referência para o padrão arquitetural REST](https://restfulapi.net/)
 
 # Projeto Original
-
-Professor Larissa Falcão
-repositório https://github.com/larissafalcao/fullstackweek
+- Professora Larissa Falcão
+  - repositório https://github.com/larissafalcao/fullstackweek
