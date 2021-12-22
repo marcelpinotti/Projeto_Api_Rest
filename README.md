@@ -1,10 +1,10 @@
-<h4>SISTEMA DE GERENCIAMENTO DE PESSOA EM API REST COM SPRING BOOT - Projeto Digital Innovation One</h4>
+#SISTEMA DE GERENCIAMENTO DE PESSOA EM API REST COM SPRING BOOT - Projeto Digital Innovation One
 
-
-
+##Resumo
 Neste projeto foi desenvolvido um pequeno sistema para o gerenciamento de pessoas através de uma API REST, criada com o Spring Boot.
 
-Foram desenvolvidos e abordados os seguintes tópicos durante a aula de implementação:
+##Desenvolvimento
+Foram desenvolvidos e abordados os seguintes tópicos durante a implantação:
 
 * Setup inicial de projeto com o Spring Boot Initialzr 
 * Criação de modelo de dados para o mapeamento de entidades em bancos de dados
@@ -13,9 +13,7 @@ Foram desenvolvidos e abordados os seguintes tópicos durante a aula de implemen
 * Desenvolvimento de testes unitários para validação das funcionalidades
 * Implantação do sistema na nuvem através do Heroku.
 
-
-
-Instrução passada pelo professor:
+##Instruções passadas pelo professor:
 
 ​	- Para executar o projeto no terminal, digite o seguinte comando:
 
@@ -29,24 +27,17 @@ mvn spring-boot:run
 http://localhost:8080/pessoa
 ```
 
-
-
+##Pré-Requisitos
 Foram necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
 
-* Java 08  ou versões superiores.
-
+* Java 08 ou versões superiores.
 * Maven.
-
 * Intellj IDEA Community Edition.
-
 * Controle de versão GIT.
-
 * Conta no GitHub para o armazenamento do projeto na nuvem.
-
 * Conta no Heroku para o deploy do projeto na nuvem
 
-  
-
+## Links
 Abaixo, seguem links disponibilizados pelo professor sobre tópicos mencionados durante a aula:
 
 * [SDKMan! para gerenciamento e instalação do Java e Maven](https://sdkman.io/)
@@ -61,9 +52,6 @@ Abaixo, seguem links disponibilizados pelo professor sobre tópicos mencionados 
 * [Documentação oficial do Map Struct](https://mapstruct.org/)
 * [Referência para o padrão arquitetural REST](https://restfulapi.net/)
 
-
-
-##### Projeto Original.
-
+## Projeto Original
 - Professor Rodrigo Peleiras
   - repositório https://github.com/rpeleias/personapi_digital_innovation_one
