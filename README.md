@@ -1,9 +1,9 @@
-#SISTEMA DE GERENCIAMENTO DE PESSOA EM API REST COM SPRING BOOT - Projeto Digital Innovation One
+# SISTEMA DE GERENCIAMENTO DE PESSOA EM API REST COM SPRING BOOT - Projeto Digital Innovation One
 
-##Resumo
+## Resumo
 Neste projeto foi desenvolvido um pequeno sistema para o gerenciamento de pessoas através de uma API REST, criada com o Spring Boot.
 
-##Desenvolvimento
+## Desenvolvimento
 Foram desenvolvidos e abordados os seguintes tópicos durante a implantação:
 
 * Setup inicial de projeto com o Spring Boot Initialzr 
@@ -13,21 +13,17 @@ Foram desenvolvidos e abordados os seguintes tópicos durante a implantação:
 * Desenvolvimento de testes unitários para validação das funcionalidades
 * Implantação do sistema na nuvem através do Heroku.
 
-##Instruções passadas pelo professor:
+## Instruções passadas pelo professor:
 
 ​	- Para executar o projeto no terminal, digite o seguinte comando:
-
 ```shell script
 mvn spring-boot:run 
 ```
-
 ​	- Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
-
 ```
 http://localhost:8080/pessoa
 ```
-
-##Pré-Requisitos
+## Pré-Requisitos
 Foram necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
 
 * Java 08 ou versões superiores.
