@@ -1,6 +1,6 @@
 <h1>REPOSITÓRIO COM PROJETOS DE API REST COM SPRING BOOT</h1>
 
-Este repositório foi criado para armazenar projetos de Api Rest construídos em diferentes Bootcamps. Os projetos fazem parte do meu processo de estudos em desenvolvimento.
+Este repositório foi criado para armazenar projetos de Api Rest construídos em diferentes Bootcamps. Os projetos fazem parte do meu processo de estudos.
 
 Foram necessários os seguintes pré-requisitos para a execução dos projetos desenvolvidos durante os Bootcamps:
 
