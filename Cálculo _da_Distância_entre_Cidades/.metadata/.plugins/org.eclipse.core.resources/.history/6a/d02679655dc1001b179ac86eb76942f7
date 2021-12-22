@@ -1,0 +1,5 @@
+package br.com.marcelpinotti.citiesapi.resource;
+
+public class CityResource {
+
+}

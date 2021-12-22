@@ -1,0 +1,5 @@
+package br.com.marcelpinotti.citiesapi.domain;
+
+public class PointType {
+
+}

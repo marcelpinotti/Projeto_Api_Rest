@@ -1,0 +1,5 @@
+package br.com.marcelpinotti.citiesapi.repository;
+
+public interface CityRepository extends JpaRepository<City, Long> 
+
+}
