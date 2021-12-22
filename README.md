@@ -33,6 +33,19 @@ Foram necessários os seguintes pré-requisitos para a execução do projeto des
 * Conta no GitHub para o armazenamento do projeto na nuvem.
 * Conta no Heroku para o deploy do projeto na nuvem
 
+## Endpoints
+Para acessar o banco de dados, é necessário acessar a URL do projeto mais os endpoints que estão na tabela abaixo:
+
+URL do projeto: https://cadastroclientes-api.herokuapp.com/
+
+| Tipo | Descrição                                             | Caminho                                                      |
+| ---- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| POST | Cria uma pessoa.                                      | **/pessoa**                                                  |
+| GET  | Retorna uma lista de pessoas.                         | **/pessoa**                                                  |
+| PUT  | Atualiza uma pessoa pelo id.                          | **/pessoa/{id}**                                             |
+| DEL  | Deleta uma pessoa pelo id.                            | **/pessoa/{id}**                                             |
+| GET  | Retorna uma pessoa pelo id.                           | **/pessoa/{id}**                                             |
+
 ## Links
 Abaixo, seguem links disponibilizados pelo professor sobre tópicos mencionados durante a aula:
 
