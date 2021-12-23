@@ -17,10 +17,10 @@ Foram necessários os seguintes pré-requisitos para a execução dos projetos:
 - Thymeleaf;
 - Spring Boot 2.5.4;
 
-## Projetos em suas Branchs no Repositório
+## Projetos da Branch
 **Projeto - Spring MVC Básico** - [Link do Projeto](https://github.com/marcelpinotti/Projetos_Api_Rest_de_BootCamps/tree/padrao_mvc/spring_mvc_basico) ;
 
 **Projeto - Spring Rest** - [Link do Projeto](https://github.com/marcelpinotti/Projetos_Api_Rest_de_BootCamps/tree/padrao_mvc/spring_rest) ;
 
 ## Link do Vídeo no YouTube
-[Vídeo do Projeto Funcionando](https://youtu.be/vjbRQ6H3uYU)
+- [Vídeo do Projeto Funcionando](https://youtu.be/vjbRQ6H3uYU)
