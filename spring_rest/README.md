@@ -1,16 +1,10 @@
-<h1>INTERNET E SEUS RECURSOS</h1>
+# INTERNET E SEUS RECURSOS
 
 Cliente faz ----> Request (Requisição) através do protocolo HTTP;
-
 Servidor Web ----> recebe a requisição e envia uma resposta (Response) através do protocolo HTTP;
 
-
-
 HTTP -> Hypertext Transfer Protocol - Protocolo de Transferência de Hipertexto.
-
 ​	-	Protocolo de comunicação / Base para a comunicação de dados da Internet.
-
-
 
 HTTP REQUEST. 
 
@@ -22,21 +16,14 @@ HTTP REQUEST.
        - HTTP/1.1 versão do protocolo (HTTP Version)
           - Hoje já existe a versão 2.0
 
-   
+HTTP RESPONSE.
 
-   HTTP RESPONSE.
+- Resposta possui um modelo:
 
-   - Resposta possui um modelo:
-
-   - HTTP/1.1  200 OK  Hello, Wold!
-
-     - HTTP/1.1 versão do protocolo (HTTP Version)
-
-     - 200 OK  código que representa o status da resposta (HTTP status code)
-
-     - Hello, Word! corpo da resposta (HTTP response boby)
-
-       
+ - HTTP/1.1  200 OK  Hello, Wold!
+   - HTTP/1.1 versão do protocolo (HTTP Version)
+   - 200 OK  código que representa o status da resposta (HTTP status code)
+   - Hello, Word! corpo da resposta (HTTP response boby)     
 
 REST -> Representational  State Transfer - Transferência de Estado Representacional.
 
@@ -44,8 +31,6 @@ REST -> Representational  State Transfer - Transferência de Estado Representaci
  -	Não é um protocolo.
  -	Maneira mais convencional e simples de fazer integração de sistemas.
  -	Utiliza verbos, códigos, cabeçalhos e URIs.
-
-
 
 Métodos do protocolo HTTP.
 
@@ -57,8 +42,6 @@ Métodos do protocolo HTTP.
   - DELETE - remove um recurso específico;
   - PATCH - realiza modificações parciais em um recurso;
   - TRACE / HEAD / OPTIONS / CONNECT.
-
-
 
 Status Code.
 
@@ -75,8 +58,6 @@ Status Code.
   - 500 Internet Server error
   - 503 Service Unavailable
 
-
-
 Resources - Recursos.
 
 - São representações dos modelos e/ou coleções de modelos que serão expostos aos clientes.
@@ -85,15 +66,11 @@ Resources - Recursos.
   - Essa representação pode ser de um recurso específico através do identificador (id).
   - Ou pode ser a representação de uma coleção de recursos.
 
-
-
 Payload.
 
 - É o conteúdo das requisições e respostas;
 - Chamado de corpo (body);
 - É onde os recursos estão localizados e representados no protocolo.
-
-
 
 Headers.
 
@@ -101,8 +78,6 @@ Headers.
 - Permite inserir informações adicionais para as requests e reponses.
   - Escolha de formato, fazer autenticação, etc;
   - ex: GET "http://localhost:8080/v1/cities/1" -H "accept: application/json"
-
-
 
 Práticas:
 
@@ -117,11 +92,7 @@ Práticas:
 - Escolha o HTTP Status Code corretamente;
 - Entende o seu Domínio, como representá-lo e documente a API.
 
-
-
-<h2>Projeto Jedi - Modelo Rest</h2>
-
-
+## Projeto Jedi - Modelo Rest
 
 - O padrão Rest foi criado para que outras aplicações consigam fazer uma interação com o Jedi não via interface web browser, e sim por um client padrão http.
 - Rest é uma espécie de convenção de comunicação usando protocolo http.
