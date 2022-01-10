@@ -11,7 +11,7 @@ Foram necessários os seguintes pré-requisitos para a execução dos projetos d
 - Intellj IDEA Community Edition.
 - Controle de versão GIT.
 - Conta no GitHub para o armazenamento do projeto na nuvem.
-- Conta no Heroku para o deploy do projeto na nuvem
+- Conta no Heroku para o deploy do projeto na nuvem.
 
 # Projetos em suas Branchs no Repositório
 
